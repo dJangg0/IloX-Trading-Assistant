@@ -1,0 +1,16 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Secrets and local data (server/.env holds ADMIN_TOKEN, VAPID keys and the Sifting key)
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs and OS files
+*.log
+.DS_Store
