@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.log
+
+# Secrets & local data
+.env
+.env.local
+server/.env
+server/data/
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Conductor / local notes
+.context/
